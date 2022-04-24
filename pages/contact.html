@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="../css/contact.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" type="text/css">
+  <link rel="icon" href="../images/favcon.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Contact</title>
+</head>
+
+<body class="scale-in-center">
+  
+  <!-- Navabar -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-1">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="../index.html"><img src="../images/festival1-trans.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item btn-group">
+            <a class="nav-link hvr-underline-from-center" aria-current="page" href="../index.html">Home</a>
+          </li>
+
+          <div class="btn-group mx-1">
+            <a href="../index.html#festivals" class="nav-link hvr-underline-from-center">Festivals</a>
+            <button type="button" class="btn-drop dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference"
+              data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+              <li><a class="dropdown-item hvr-sweep-to-right" href="./muslim-fest.html">Muslim</a></li>
+              <li><a class="dropdown-item hvr-sweep-to-right" href="./hindu-fest.html">Hindu</a></li>
+              <li><a class="dropdown-item hvr-sweep-to-right" href="./christian-fest.html">Christian</a></li>
+              <li><a class="dropdown-item hvr-sweep-to-right" href="./sikh-fest.html">Sikh</a></li>
+            </ul>
+          </div>
+          <li class="nav-item btn-group">
+            <a class="nav-link active-u me-1" href="#">Contact</a>
+          </li>
+          <li class="nav-item btn-group me-1">
+            <a class="nav-link hvr-underline-from-center" href="./about.html">About</a>
+          </li>
+          <li class="nav-item btn-group">
+            <a class="nav-link hvr-underline-from-center" href="./gallery.html">Gallery</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav me-4">
+          <li class="nav-item btn-group">
+            <a class="nav-link hvr-underline-from-center" href="./books.html"><i class="fad fa-book fs-4"></i></a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="container1 mt-5">
+      <h1 class="text-center pt-5">Send Your Feedback</h1>
+    </div>
+
+    <form class="contact-us" data-aos="zoom-in-up" onsubmit="target_popup()">
+      <div class="row mt-5">
+        <div class="div1 col-md-6 offset-md-3 py-5 px-5 shadow-lg rounded">
+          <div class="form-group my-4">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control shadow-lg" id="exampleFormControlInput2"
+              placeholder="Enter Your Name" data-aos="zoom-in-up" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label class="form-label mt-3">Email address</label>
+            <input type="email" class="form-control shadow-lg py-2" id="exampleFormControlInput1"
+              placeholder="name@example.com" data-aos="zoom-in-up" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label class="form-label mt-3">Feedback</label>
+            <textarea class="form-control shadow-lg" id="exampleFormControlTextarea1" rows="7"
+              placeholder="Enter Your Feedback" data-aos="zoom-in-up" required autocomplete="off"></textarea>
+          </div>
+          <div class="form-group mt-4">
+            <button type="submit" data-aos="zoom-in-up" class="btn btn-light float-end px-5 py-2 shadow-lg hvr-rectangle-out">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+ 
+
+  <!-- footer -->
+  <footer class="footer py-2 pt-4 shadow-lg mt-5">
+    <div class="col d-flex">
+      <p class="mx-5 text-center">© 2022 Festival , Inc. All rights reserved.</p>
+      <div class="ms-auto">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="mx-3 fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- popup -->
+  <script>
+    function target_popup(form) {
+      window.alert('Form Submitted', 'width=400,height=400,resizeable');
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

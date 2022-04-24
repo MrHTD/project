@@ -1,0 +1,638 @@
+.card-group {
+    background: #4A569D;
+}
+
+.navbar {
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+[type=button]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+[type=email]:focus {
+    outline: none;
+    box-shadow: #4A569D;
+}
+
+.fas {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item .buy {
+    color: #DC2424;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand img {
+    width: 120px;
+    height: 80px;
+}
+
+.btn-group .nav-link {
+    font-weight: 600;
+}
+
+.btn-group .dropdown-menu .dropdown-item {
+    color: #DC2424;
+}
+
+.btn-group .dropdown-menu .dropdown-item:hover {
+    border-radius: 5px;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.btn-group .dropdown-menu .dropdown-item:active {
+    color: white;
+}
+
+.btn-group .dropdown-menu .dropdown-item {
+    font-weight: 700;
+}
+
+.active-u {
+    border-bottom: 4px solid white;
+}
+
+.navbar .navbar-nav .btn-group .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .btn-group .btn-drop {
+    color: white;
+    background: none;
+    border: none;
+    font-size: larger;
+}
+
+.card-group .card-body .card-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-group h1 {
+    color: white;
+    font-weight: 800;
+}
+
+.card-group .card-body .card-text {
+    font-size: 14px;
+}
+
+.card-group .card-body a {
+    color: #4A569D;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.card-group .card-body a:hover {
+    color: white;
+}
+
+.card-group .card-body a:active {
+    color: #fff;
+}
+
+.card img {
+    outline: none;
+    border: none;
+    border-bottom: 5px solid #4A569D;
+}
+
+.accordion .accordion-item .accordion-button {
+    border-radius: 5px;
+}
+
+.accordion .accordion-item .accordion-body {
+    border-radius: 5px;
+}
+
+.container h1 {
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.container .accordion button {
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    color: white;
+    font-weight: 600;
+}
+
+.accordion .accordion-item {
+    border: none;
+}
+
+.accordion-body {
+    color: #4A569D;
+}
+
+
+.footer {
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.footer .fab {
+    color: #fff;
+}
+
+.navbar-fot {
+    list-style: none;
+    color: red;
+}
+
+.navbar-fot li {
+    color: #DC2424;
+}
+
+.footer div h2 {
+    font-weight: 600;
+}
+
+.footer div ul li .nav-link {
+    font-weight: 600;
+    color: #4A569D;
+}
+
+.footer div input {
+    font-weight: 600;
+    border: none;
+    color: #4A569D;
+}
+
+.footer div input[type=email] {
+    color: #4A569D;
+}
+
+.footer div input::placeholder {
+    color: #4A569D;
+}
+
+.footer div input[type=submit] {
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    color: #4A569D;
+}
+
+.footer div input[type=submit]:hover {
+    font-weight: 600;
+    background-color: #4A569D;
+    border: none;
+    color: #fff;
+    transition: 0.6s;
+}
+
+/* carousel */
+.carousel-indicators [data-bs-target] {
+    width: 15px; /* change width */
+    height: 15px; /* change height */
+    background-color: #4A569D;
+    border-radius: 100%;
+}
+
+.carousel-control-prev .carousel-control-next-icon span {
+    background-color: #4A569D;
+    color: #4A569D;
+}
+
+.carousel-control-next-icon span {
+    background-color: #4A569D;
+}
+
+.card__by:hover {
+    background: #DC2424;
+    background: -webkit-linear-gradient(50deg, #4A569D, #DC2424);
+    background: linear-gradient(50deg, #4A569D, #DC2424);
+    color: white;
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background: #4A569D;
+    color: #fff;
+    border: none;
+}
+
+.card {
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    height: 470px;
+}
+
+
+/* animation */
+
+/* Shadow */
+.hvr-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.hvr-shadow:hover,
+.hvr-shadow:focus,
+.hvr-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Box Shadow Outset */
+.hvr-box-shadow-outset {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.hvr-box-shadow-outset:hover,
+.hvr-box-shadow-outset:focus,
+.hvr-box-shadow-outset:active {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Rectangle Out */
+.hvr-rectangle-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-rectangle-out:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    border-radius: 10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-rectangle-out:hover,
+.hvr-rectangle-out:focus,
+.hvr-rectangle-out:active {
+    color: white;
+}
+
+.hvr-rectangle-out:hover:before,
+.hvr-rectangle-out:focus:before,
+.hvr-rectangle-out:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #fff;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+    color: white;
+    background-color: #fff;
+}
+
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #fff;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #fff;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+/* entrance */
+.slide-in-bck-center {
+    -webkit-animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-left {
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-14 16:8:55
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bck-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-bck-center {
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bck-center {
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-14 16:10:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2022-4-14 16:11:35
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
